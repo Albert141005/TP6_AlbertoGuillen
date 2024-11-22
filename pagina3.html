@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Página 3</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Formulario de Datos Personales</h1>
+        <form id="personalDataForm">
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Apellido" required>
+            <input type="number" placeholder="Edad" required>
+            <input type="text" placeholder="Dirección" required>
+            <input type="text" placeholder="Celular" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Ciudad" required>
+            <input type="text" placeholder="País" required>
+            <button type="submit">Enviar</button>
+            <button type="button" onclick="this.form.reset();">Limpiar</button>
+        </form>
+        <div id="formMessage"></div>
+        <button onclick="location.href='pagina2.html'">Regresar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

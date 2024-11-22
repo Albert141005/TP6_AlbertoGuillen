@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Página 4</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Enviar Mensaje de Texto</h1>
+        <form id="messageForm">
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Apellido" required>
+            <input type="text" placeholder="Celular" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Escribe tu mensaje aquí..." required></textarea>
+            <button type="submit">Enviar</button>
+            <button type="button" onclick="this.form.reset();">Limpiar</button>
+        </form>
+        <div id="messageResponse"></div>
+        <button onclick="location.href='pagina2.html'">Regresar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
